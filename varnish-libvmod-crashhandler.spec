@@ -5,12 +5,12 @@
 %define	vmod	crashhandler
 Summary:	Crash handler for Varnish
 Name:		varnish-libvmod-%{vmod}
-Version:	1.0
+Version:	1.1.0
 Release:	1
 License:	BSD
 Group:		Daemons
-Source0:	https://github.com/varnish/libvmod-crashhandler/archive/master/%{vmod}-%{version}.tar.gz
-# Source0-md5:	84f8e7cc77b972e2b16705aae87e1484
+Source0:	https://github.com/varnish/libvmod-crashhandler/archive/%{version}/%{vmod}-%{version}.tar.gz
+# Source0-md5:	4e0541f405565b2c91f2bc7c1393e1e3
 URL:		https://github.com/varnish/libvmod-crashhandler
 BuildRequires:	autoconf
 BuildRequires:	automake
